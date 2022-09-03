@@ -3,7 +3,7 @@ const statusEl = document.querySelector('.status')
 const activityEl = document.querySelector('.activity')
 const progEl = document.querySelector('.progress')
 
-const corsURL = 'https://dokustash-cors.herokuapp.com/'
+const corsURL = 'https://cors.dokucraft.co.uk:2096/'
 //const releasesURL = 'https://github.com/DokucraftSaga/Dokucraft-Releases/releases/download/v1.0/'
 const repoURL = (name, branch = null) => `https://github.com/Dokucraft/${name}/archive/refs/heads/${branch === null ? 'master' : branch}.zip`
 
